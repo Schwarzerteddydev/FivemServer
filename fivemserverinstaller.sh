@@ -11,8 +11,6 @@ echo 'Artifacts Installed'
 echo 'Installing Server-Data'
 mkdir -p /home/FiveM/server-data
 cd /home/FiveM/server-data
-git clone https://github.com/citizenfx/cfx-server-data.git /home/FiveMDevServer/server-data && chmod -R 777 *
-cd /home/FiveM/server-data
 touch esx.cfg
 echo -e '
 ensure async
@@ -156,50 +154,6 @@ sv_licenseKey ""
 ' >> server.cfg
 echo 'Default Resources Installed'
 echo 'Installing ESX'
-cd /home/FiveM/server-data/resources/
-git clone https://github.com/zap-fivem/esx_12.git [ESX]
-echo 'Installing mysql-async'
-cd /home/FiveM/server-data/resources/
-mkdir -p [SQL]
-cd /home/FiveM/server-data/resources/[SQL]
-git clone https://github.com/brouznouf/fivem-mysql-async.git mysql-async
-echo 'MySQL-Async Installed'
-echo 'Installing some gift scripts'
-cd /home/FiveM/server-data/resources/
-mkdir -p [Admin]
-cd /home/FiveM/server-data/resources/[Admin]
-git clone https://github.com/Blumlaut/EasyAdmin.git
-git clone https://github.com/Blumlaut/anticheese-anticheat.git anticheese
-mkdir -p [ESX]
-cd /home/FiveM/server-data/resources/[Admin]/[ESX]
-git clone https://github.com/qalle-git/esx_marker.git esx_tpm
-cd /home/FiveM/server-data/resources/
-mkdir -p [Voice]
-cd /home/FiveM/server-data/resources/[Voice]
-git clone https://github.com/lizarragaeneko/mumble-voip.git mumble-voip
-git clone https://github.com/FrazzIe/rp-radio.git [RPRadio]
-cd /home/FiveM/server-data/resources/
-mkdir -p [AntiCheats]
-cd /home/FiveM/server-data/resources/[AntiCheats]
-git clone https://github.com/ATG-Github/atg-antiped.git
-cd /home/FiveM/server-data/resources/[AntiCheats]/atg-antiped
-rm -r README.md
-cd /home/FiveM/server-data/resources/
-mkdir -p [Scripts]
-cd /home/FiveM/server-data/resources/[Scripts]
-git clone https://github.com/lizarragaeneko/agacharse.git eneko_agacharse
-git clone https://github.com/REDUX-SYSTEMS/USER_PEDS.git redux_user_peds
-git clone https://github.com/string-null/np_carryped.git
-cd /home/FiveM/server-data/resources/[Scripts]/np_carryped
-rm -r server/
-cd /home/FiveM/server-data/resources/[Scripts]
-git clone https://github.com/string-null/nm_hud.git
-git clone https://github.com/string-null/np_carhud.git
-cd /home/FiveM/server-data/resources/[Scripts]/np_carhud
-rm -r version_check.lua
-cd /home/FiveM/server-data
-git clone https://github.com/lizarragaeneko/FiveMAutoInstallerSql.git [Sql]
-cd /home/FiveM/server
 rm -r fx.tar.xz
 
 echo 'Succesfully Installed, now add the sql of the folder [Sql] in /home/FiveM/server-data/[Sql] to your mysql server, that will create a database and then configure all the things of the admin in server.cfg'
