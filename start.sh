@@ -1,1 +1,1 @@
-screen -dmS fivem FiveM/server/run.sh
+screen -dmS fivem /home/FiveM/server/run.sh
