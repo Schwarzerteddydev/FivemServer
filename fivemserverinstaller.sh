@@ -202,4 +202,4 @@ git clone https://github.com/lizarragaeneko/FiveMAutoInstallerSql.git [Sql]
 cd /home/FiveM/server
 rm -r fx.tar.xz
 
-echo 'Succesfully Installed, now add the sql of the folder [Sql] in /home/FiveMServer/server-data/[Sql] to your mysql server, that will create a database and then configure all the things of the admin in server.cfg'
+echo 'Succesfully Installed, now add the sql of the folder [Sql] in /home/FiveM/server-data/[Sql] to your mysql server, that will create a database and then configure all the things of the admin in server.cfg'
