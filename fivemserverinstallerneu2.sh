@@ -11,6 +11,10 @@ echo 'Artifacts Installed'
 echo 'Installing Server-Data'
 rm -r fx.tar.xz
 cd /home/FiveM/
+echo 'Downloading start.sh'
 wget https://raw.githubusercontent.com/Schwarzerteddydev/FivemServer/main/start.sh
 chmod +x start.sh
-echo 'Succesfully Installed, now add the sql of the folder [Sql] in /home/FiveM/server-data/[Sql] to your mysql server, that will create a database and then configure all the things of the admin in server.cfg'
+echo 'Install Screen'
+apt install screen
+echo 'Erfolgreich installiert, Jetzt Must du in den Ordner cd /home/FiveM/ und die datei start.sh ausführen --> ./start.sh'
+echo 'Successfully installed, Now you must go to the folder cd /home/FiveM/ and execute the file start.sh -->./start.sh'
