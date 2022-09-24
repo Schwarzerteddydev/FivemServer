@@ -26,6 +26,7 @@ bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/FivemServerIn
 
 #German: 
 datenbank Installieren 
+
 #Englisch: 
 database Install
 
