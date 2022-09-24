@@ -1,3 +1,5 @@
+echo 'FiveM LINUX REBOOT INSTALLER'
+apt update && apt upgrade
 touch /lib/systemd/system/fivem.service
 echo -e '
 [Unit]
