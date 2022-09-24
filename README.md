@@ -6,5 +6,5 @@ bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/FivemServerIn
 
 Start server whit server reboot only linux!
 ```
-bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/FivemServerInstaller/main/autorebootstart.sh)
+bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/fivem-autoreboot/main/rebootautostart.sh)
 ```
