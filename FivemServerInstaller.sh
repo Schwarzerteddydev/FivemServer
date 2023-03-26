@@ -5,7 +5,7 @@ apt install xf
 apt install tar
 mkdir -p /home/FiveM/server
 cd /home/FiveM/server
-wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/6086-3e7270d2320a8c8f4aba37eb964101dfc0007d21/fx.tar.xz
+wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/6362-4d0535f47951790580279415aec0c68e133ba705/fx.tar.xz
 tar xf fx.tar.xz
 echo 'Artifacts Installed'
 rm -r fx.tar.xz
