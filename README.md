@@ -1,3 +1,13 @@
+#German: 
+datenbank Installieren 
+
+#Englisch: 
+database Install
+
+```
+bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/phpmyadmininstaller/main/phpmyadminAutoInstaller.sh)
+```
+
 #Englisch: FivemServer Installer only linux!
 
 #German: FivemServer Installer nur Linux!
@@ -23,13 +33,3 @@ bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/FivemServerIn
 #https://exemple.com:40120
 #oder server ip
 #http://127.0.0.1:40120
-
-#German: 
-datenbank Installieren 
-
-#Englisch: 
-database Install
-
-```
-bash <(curl -s https://raw.githubusercontent.com/Schwarzerteddydev/phpmyadmininstaller/main/phpmyadminAutoInstaller.sh)
-```
