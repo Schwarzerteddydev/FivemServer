@@ -6,7 +6,7 @@ echo 'FiveM LINUX AutoUpdater'
 screen -S fivem -X quit
 
 # Verzeichnis für den FiveM-Server erstellen
-cd /home/FiveMgangwar/server || { echo "Directory '/home/FiveMgangwar/server' not found. Exiting."; exit 1; }
+cd /home/FiveM/server || { echo "Directory '/home/FiveM/server' not found. Exiting."; exit 1; }
 
 # Funktion zum Herunterladen einer Datei definieren
 download_file() {
@@ -57,7 +57,7 @@ echo 'Artifacts Installed'
 rm -f fx.tar.xz
 
 # In das FiveM-Verzeichnis wechseln
-cd /home/FiveMgangwar || { echo "Directory '/home/FiveM' not found. Exiting."; exit 1; }
+cd /home/FiveM || { echo "Directory '/home/FiveM' not found. Exiting."; exit 1; }
 
 # Starte die start.sh-Datei (angenommen, dies startet den FiveM-Server)
 ./start.sh
